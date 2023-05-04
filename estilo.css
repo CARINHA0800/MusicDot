@@ -10,13 +10,14 @@ body {
     margin-right: auto;
 }
 
-h1 {
+.titulo {
     color: #3d3d3d;
     background-color: #E1EDF2;
     padding: 10px;
 }
 
-h2 {
+.subtitulo {
+    color: black;
     border-bottom: 2px solid #000;
 }
 
@@ -31,3 +32,40 @@ figure {
 figcaption {
     padding-top: 10px;
 }
+
+#figure-matriz-musicdot {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#figure-familia-tupfeln {
+    width: 275px;
+    float: right;
+}
+
+figure img {
+    width: 100%;
+}
+button[type="submit"] {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  label {
+    
+    margin-bottom: 10px;
+  }
+  input, textarea {
+    
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  textarea#opiniao {
+    height: 300px;
+  }
