@@ -59,13 +59,10 @@ button[type="submit"] {
     
     margin-bottom: 10px;
   }
-  input, textarea {
-    
+  input {
     width: 500px;
     height: 30px;
     padding: 5px;
     margin-bottom: 10px;
   }
-  textarea#opiniao {
-    height: 300px;
-  }
+  
