@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>MusicDot | Formulario de contato</title>
-    <link rel="icon" href="img/favicon.ico">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="estilo.css">
-  
-  </head>
-  <body>
-    <img src="img/logo.svg" alt="Logotipo">
-    <h1 class="titulo">Entre em contato</h1>
-    <form>
-      
-      <input type="text" id="nome" name="nome" required autocomplete="name">
-      <label for="nome">Nome</label><br>
-      
-      <input type="email" id="email" name="email" required autocomplete="email">
-      <label for="email">Email</label><br>
-      
-      <input type="tel" id="telefone" name="telefone" required autocomplete="tel">
-      <label for="telefone">fone</label><br>
 
-      <label for="opiniao">Deixe sua opinião:</label><br>
-      <textarea id="opiniao" name="opiniao"></textarea><br>
+<head>
+  <title>MusicDot | Formulario de contato</title>
+  <link rel="icon" href="img/favicon.ico">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+  <img src="img/logo.svg" alt="Logotipo">
+  <h1 class="titulo">Entre em contato</h1>
+  <form>
+    <div>
+      <input type="text" id="nome" name="nome" placeholder="..." required autocomplete="name">
+      <label for="nome">Nome</label>
+    </div>
+    <div>
+     <input type="email" id="email" name="email" placeholder="fulano@gmail.com" required autocomplete="email">
+     <label for="email">Email</label>
+    </div>
+    <div>
+      <input type="tel" id="telefone" name="telefone" placeholder="(xx)xx-xx-xx-xx" required autocomplete="tel">
+      <label for="telefone">fone</label><br>
+    </div>
+    
+    <div>
       
-      <button type="submit">Enviar</button>
-    </form>
-  </body>
+      <textarea name="opniao" id="" cols="70" rows="10" placeholder="deixe sua opnião"></textarea>
+    </div>
+    
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+
 </html>
